@@ -1,12 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import * as serviceWorker from './serviceWorker';
+import Homepage from './Homepage/Homepage';
+import HomeHeader from './Homepage/HomeHeader';
+import MainPage from './Main/main';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    {/* <App /> */}
+    {/* <HomeHeader></HomeHeader> */}
+    {/* <Homepage></Homepage> */}
+    <MainPage></MainPage>
   </React.StrictMode>,
   document.getElementById('root')
 );

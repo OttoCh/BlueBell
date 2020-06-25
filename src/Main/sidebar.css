@@ -1,0 +1,43 @@
+.sidebarBox {
+    background-color: #ecd1b3;
+    position: absolute;
+    left: 0%;
+    top: 10%;
+    /* top: 60px; */
+    bottom: 0%;
+    width: 25%;
+    min-width: 150px;
+    max-width: 200px;
+    z-index: -1;
+    transform: translate3d(0, 0, 0);
+}
+
+#sidebarTaskListBox {
+    background-color: #fffff5;
+    position: relative;
+    top: 10px;
+    margin-left: 5%;
+    width: 90%;
+    height: 50%;
+
+}
+
+#sidebarNotepadBox {
+    background-color: #fffff5;
+    position: relative;
+    top: 10%;
+    margin: 5px;
+    margin-left: 5%;
+    width: 90%;
+    height: 20%;
+
+}
+
+#sidebarShopBox {
+    background-color: #fffff5;
+    position: absolute;
+    bottom: 0%;
+    margin-left: 5%;
+    width: 90%;
+    height: 10%;
+}

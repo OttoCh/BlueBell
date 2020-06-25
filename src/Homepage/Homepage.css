@@ -1,0 +1,76 @@
+.App {
+    text-align: center;
+}
+
+.App-header {
+    background-color: #282c34;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.home-header {
+    background-color: white;
+    padding: 10px;
+    height: 500px;
+}
+
+.solid-line {
+    border-style: solid;
+    border-color: black;
+    border-width: 3px;
+}
+
+.div-padding {
+    padding: 1px 1px;
+    margin: 1px 1px;
+}
+
+.fixed-height {
+    height: 50px;
+}
+
+.r1 {
+    background-color: violet;
+    /* float: none; */
+    width: fit-content;
+    height: fit-content;
+    min-height: 60px;
+}
+
+.r2 {
+    background-color: violet;
+    /* float: none; */
+    width: fit-content;
+    height: fit-content;
+    min-height: 60px;
+}
+
+.c1r1 {
+    background-color: green;
+    width: 50px;
+    float: left;
+}
+
+.c2r1 {
+    background-color: red;
+    width: 50px;
+    float: left;
+}
+
+.c3r1 {
+    background-color: blue;
+    width: 50px;
+    float: left;
+}
+
+.c1r2 {
+    background-color: greenyellow;
+    width: 110px;
+    float: left;
+}
+.c2r2 {
+    background-color: red;
+    width: 50px;
+    float: left;
+}
