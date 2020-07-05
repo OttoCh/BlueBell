@@ -1,0 +1,14 @@
+.taskBulletBox {
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.taskInput {
+    width: 23%;
+    max-width: 400px;
+}
+
+.taskTimeInput {
+    width: 10%;
+    text-align: center;
+}

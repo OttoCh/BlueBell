@@ -1,0 +1,51 @@
+#mainPageBox {
+    background-color: rgb(255, 244, 214);
+    width: 80%;
+    height: 90%;
+    position: absolute;
+    top: 10%;
+    left: 20%;
+    z-index: -2;
+    transition: width 0.5s, height 2s, transform 1s;
+}
+
+#mainPageBox.hide {
+    transform: translate3d(-20vw, 0, 0);
+    width: 100%;
+}
+
+#mainPageBox.show {
+    transform: translate3d(0, 0, 0);
+}
+
+
+#contentPageBox {
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    height: 95%;
+    width: 95%;
+    border: 5px;
+    border-style: solid;
+    border-color: bisque;
+}
+
+#titlePageBox {
+    position: relative;
+    top: 2vh;
+    left: 2vw;
+    width: 95%;
+    height: fit-content;
+    text-decoration: underline overline;
+}
+
+#bulletPageBox {
+    position: relative;
+    background-color: rgb(245, 224, 179);
+    margin-top: 1vh;
+    top: 2vh;
+    left: 2vw;
+    width: 95%;
+    height: 90%;
+    padding-top: 1vh;
+}

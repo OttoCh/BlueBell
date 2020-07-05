@@ -56,3 +56,9 @@
     left: 10%;
     position: relative;
 }
+
+#pageBody {
+    float: left;
+    width: 100%;
+    height: 90%;
+}

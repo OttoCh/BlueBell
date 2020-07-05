@@ -1,4 +1,4 @@
-button.sidebarTaskButtonBox {
+button.sidebarNoteButtonBox {
     background-color: rgb(199, 175, 107);
     border: none;
     color: white;
@@ -8,20 +8,11 @@ button.sidebarTaskButtonBox {
     font-size: 16px;
     width: 95%;
     padding-right: 10px;
-    margin: 0.5vh;
     margin-left: 5px;
     margin-right: auto;
-    min-height: fit-content;
-    height: 4vh;
 }
 
-button.sidebarTaskButtonBox:hover {
-    background-color: rgb(165, 145, 90);
-    border-color: white;
-}
-
-.taskButton {
+.noteButton {
     font-size: small;
     text-align: center;
-    border: none;
 }
