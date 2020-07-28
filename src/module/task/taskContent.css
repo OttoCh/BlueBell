@@ -1,0 +1,16 @@
+input {
+    width: 100%;
+}
+
+.taskCheckbox {
+    left: 50%;
+}
+
+#TaskList {
+    height: inherit;
+    width: inherit;
+}
+
+.TaskItemBox {
+    
+}

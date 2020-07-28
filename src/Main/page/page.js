@@ -2,37 +2,22 @@ import React, { Component } from 'react';
 import './page.css';
 import Task from './task';
 import TaskModel from './TaskModel';
+import PageContent from './PageContent';
 // import Clock from './Clock';
 
 class Page extends Component {
 
-
-
     render() {
+        var mode = this.props.pagemode;
+
         var visibility = "show";
-        if(this.props.menuVisibility) {
+        if(this.props.menuvisibility) {
             visibility = "hide";
         }
-
-        var tModel = new TaskModel(
-            false,
-            'task number 1',
-            new Date(),
-            'description content',
-            'resolution content'
-        );
-
         return (
             <div id="mainPageBox" className={visibility}>
                 {/* <Clock></Clock> */}
-                <div id="contentPageBox">
-                    <div id="titlePageBox">Task Title</div>
-                    <div id="bulletPageBox">
-                        <Task props={tModel}></Task>
-                        <Task props={tModel}></Task>
-                        <Task props={tModel}></Task>
-                    </div>
-                </div>
+                <PageContent taskMode={mode} ></PageContent>
             </div>
         );
     }

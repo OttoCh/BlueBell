@@ -5,22 +5,32 @@ import './sidebar.css';
 
 class Sidebar extends Component {
 
+    // handleActivityButton(e) {
+    //     // e.stopPropagation();
+    //     console.log('handle activity is pressed')
+    // }
 
+
+    constructor(props, context) {
+        super(props, context);
+        // this.handleActivityButton = this.handleActivityButton.bind(this);
+    }
 
     render() {
-
+        // const handleActivityButton = this.props.handleActivityButton;
         var visibility = "show sidebarBox";
-        if(this.props.menuVisibility) {
+        if(this.props.menuvisibility) {
             visibility = "hide sidebarBox";
         }
 
         return(
             <div id="sidebarContainer" className={visibility}>
                 <div id="sidebarTaskListBox">
-                    {this.props.sidebarTask}
+                    {/* {this.props.sidebarTask} */}
+                    <SidebarTaskButton handleActivityButton={this.props.handleActivityButton}></SidebarTaskButton>
                 </div>
                 <div id="sidebarNotepadBox">
-                    <SidebarNoteButton></SidebarNoteButton>
+                    <SidebarNoteButton handleActivityButton={this.props.handleActivityButton}></SidebarNoteButton>
                 </div>
                 <div id="sidebarShopBox"></div>
             </div>

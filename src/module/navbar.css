@@ -1,0 +1,50 @@
+.navbarBody {
+    position: relative;
+    top: 10%;
+    margin: 10px;
+    height: 100%;
+    width: 90%;
+}
+
+#navbarBox {
+    transition: width 0.5s, height 2s, transform 0.5s;
+}
+
+#navbarBox.hide {
+    transform: translate3d(-100vw, 0, 0);
+}
+
+#navbarBox.show {
+    transform: translate3d(0, 0, 0);
+}
+
+.navbarTaskList {
+    position: relative;
+    background-color: #9b9cf5;
+    max-height: 30%;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbarNotesList {
+    position: relative;
+    background-color: #9b9cf5;
+    max-height: 30%;
+    overflow: scroll;
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.navbarShopList {
+    position: absolute;
+    background-color: white;
+    bottom: 12vh;
+    width: 100%;
+}
+
+.navbarItemButton {
+    position: relative;
+    width: 100%;
+}
+

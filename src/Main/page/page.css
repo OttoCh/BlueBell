@@ -30,7 +30,7 @@
     border-color: bisque;
 }
 
-#titlePageBox {
+#titlePageBox #notesTitleBox {
     position: relative;
     top: 2vh;
     left: 2vw;
@@ -39,7 +39,7 @@
     text-decoration: underline overline;
 }
 
-#bulletPageBox {
+#bulletPageBox #notesContentBox{
     position: relative;
     background-color: rgb(245, 224, 179);
     margin-top: 1vh;
